@@ -19,6 +19,6 @@ resource "azurerm_resource_group" "demo" {
 
   tags = {
     Environment = var.environment
-    ManagedBy   = "Terraform"
+    ManagedBy   = "Terraform-CI-CD"
   }
 }
